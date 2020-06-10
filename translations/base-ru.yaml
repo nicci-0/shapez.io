@@ -86,13 +86,13 @@ global:
 
     time:
         # Used for formatting past time dates
-        oneSecondAgo: one second ago
+        oneSecondAgo: одну секунду назад
         xSecondsAgo: <x> seconds ago
-        oneMinuteAgo: one minute ago
+        oneMinuteAgo: одну минуту назад
         xMinutesAgo: <x> minutes ago
-        oneHourAgo: one hour ago
+        oneHourAgo: один час назад
         xHoursAgo: <x> hours ago
-        oneDayAgo: one day ago
+        oneDayAgo: один день назад
         xDaysAgo: <x> days ago
 
         # Short formats for times, e.g. '5h 23m'
@@ -112,23 +112,23 @@ global:
 
 demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
-    title: Demo Version
+    title: Демо Версия
     intro: >-
         Get the standalone to unlock all features!
 
 mainMenu:
-    play: Play
-    changelog: Changelog
-    importSavegame: Import
+    play: Играть
+    changelog: Список изменений
+    importSavegame: Импортировать
     openSourceHint: This game is open source!
-    discordLink: Official Discord Server
+    discordLink: Оффициальный дискорд сервер
     helpTranslate: Help translate!
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
         Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
 
-    savegameLevel: Level <x>
+    savegameLevel: Уровень <x>
     savegameLevelUnknown: Unknown Level
 
     contests:
@@ -156,7 +156,7 @@ mainMenu:
 
 dialogs:
     buttons:
-        ok: OK
+        ok: ОК
         delete: Delete
         cancel: Cancel
         later: Later
@@ -174,9 +174,9 @@ dialogs:
             Failed to import your savegame:
 
     importSavegameSuccess:
-        title: Savegame Imported
+        title: Сохраненная игра импортированна
         text: >-
-            Your savegame has been successfully imported.
+            Ваша сохраненная игра была успешно импортированна!
 
     gameLoadFailure:
         title: Game is broken
@@ -282,10 +282,10 @@ ingame:
         placeMultiple: Place multiple
         reverseOrientation: Reverse orientation
         disableAutoOrientation: Disable auto orientation
-        toggleHud: Toggle HUD
+        toggleHud: Скрыть интерфейс
         placeBuilding: Place building
-        createMarker: Create Marker
-        delete: Destroy
+        createMarker: Создать маркер
+        delete: Уничтожить
 
     # Everything related to placing buildings (I.e. as soon as you selected a building
     # from the toolbar)
@@ -299,9 +299,9 @@ ingame:
             Hotkey: <key>
 
         infoTexts:
-            speed: Speed
-            range: Range
-            storage: Storage
+            speed: Скорость
+            range: Расстояние
+            storage: Склад
             oneItemPerSecond: 1 item / second
             itemsPerSecond: <x> items / s
             itemsPerSecondDouble: (x2)
@@ -311,25 +311,25 @@ ingame:
     # The notification when completing a level
     levelCompleteNotification:
         # <level> is replaced by the actual level, so this gets 'Level 03' for example.
-        levelTitle: Level <level>
+        levelTitle: Уровень <level>
         completed: Completed
         unlockText: Unlocked <reward>!
         buttonNextLevel: Next Level
 
     # Notifications on the lower right
     notifications:
-        newUpgrade: A new upgrade is available!
-        gameSaved: Your game has been saved.
+        newUpgrade: Новое улучшение доступно!
+        gameSaved: Ваша игра была сохранена.
 
     # Mass select information, this is when you hold CTRL and then drag with your mouse
     # to select multiple buildings
     massSelect:
-        infoText: Press <keyCopy> to copy, <keyDelete> to remove and <keyCancel> to cancel.
+        infoText: Нажмите <keyCopy> что-бы копировать, <keyDelete> что-бы удалить и <keyCancel> что-бы отменить.
 
     # The "Upgrades" window
     shop:
-        title: Upgrades
-        buttonUnlock: Upgrade
+        title: Улучшения
+        buttonUnlock: Улучшить
 
         # Gets replaced to e.g. "Tier IX"
         tier: Tier <x>
@@ -341,10 +341,10 @@ ingame:
 
     # The "Statistics" window
     statistics:
-        title: Statistics
+        title: Статистика
         dataSources:
             stored:
-                title: Stored
+                title: Хранится
                 description: Displaying amount of stored shapes in your central building.
             produced:
                 title: Produced
@@ -355,33 +355,33 @@ ingame:
         noShapesProduced: No shapes have been produced so far.
 
         # Displays the shapes per minute, e.g. '523 / m'
-        shapesPerMinute: <shapes> / m
+        shapesPerMinute: <shapes> / м
 
     # Settings menu, when you press "ESC"
     settingsMenu:
-        playtime: Playtime
+        playtime: Игровое время
 
-        buildingsPlaced: Buildings
-        beltsPlaced: Belts
+        buildingsPlaced: Построек   
+        beltsPlaced: Конвейеров
 
         buttons:
-            continue: Continue
-            settings: Settings
-            menu: Return to menu
+            continue: Продолжить
+            settings: Настройки
+            menu: Вернутся в меню
 
     # Bottom left tutorial hints
     tutorialHints:
-        title: Need help?
-        showHint: Show hint
-        hideHint: Close
+        title: Нужна помощь?
+        showHint: Показать подсказку
+        hideHint: Закрыть
 
     # When placing a blueprint
     blueprintPlacer:
-        cost: Cost
+        cost: Стоимость
 
     # Map markers
     waypoints:
-        waypoints: Markers
+        waypoints: Маркеры
         hub: HUB
         description: Left-click a marker to jump to it, right-click to delete it.<br><br>Press <keybinding> to create a marker from the current view, or <strong>right-click</strong> to create a marker at the selected location.
         creationSuccessNotification: Marker has been created.
